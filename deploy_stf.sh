@@ -54,8 +54,8 @@ prepare() {
   # install adb
   apt-get install -y android-tools-adb
 
-  apt-get install -y docker.io
-  assert_run_ok
+  #apt-get install -y docker.io
+  #assert_run_ok
 
   docker pull openstf/stf 
   assert_run_ok
