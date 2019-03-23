@@ -53,8 +53,8 @@ http {
     keepalive_timeout 70;
     root /dev/null;
 
-    resolver 127.0.0.1 valid=300s;
-    resolver_timeout 10s;
+    #resolver 127.0.0.1 valid=300s;
+    #resolver_timeout 10s;
 
     # Handle stf-provider@floor4.service
     location ~ "^/d/floor4/([^/]+)/(?<port>[0-9]{5})/$" {
