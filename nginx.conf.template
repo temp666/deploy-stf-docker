@@ -49,7 +49,7 @@ http {
 
   server {
     listen 80;
-    server_name stf.test;
+    #server_name stf.test;
     keepalive_timeout 70;
     root /dev/null;
 
